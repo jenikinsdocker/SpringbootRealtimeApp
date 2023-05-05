@@ -35,7 +35,7 @@ public class EmpyoeeTest {
 	@ManyToMany(fetch = FetchType.LAZY,cascade = CascadeType.ALL)
 	@JoinTable(name = "Employee_Company",joinColumns = {@JoinColumn(name = "emp_Id", referencedColumnName = "empId")}, inverseJoinColumns = {
     @JoinColumn(name = "company_Id", referencedColumnName = "companyId") })
-	//@JsonManagedReference
+	@JsonManagedReference
 	private List<Company> companies;
 	
 	

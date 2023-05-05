@@ -25,7 +25,7 @@ public class Company {
 	private String name;
 	private String location;
 	@ManyToMany(mappedBy = "companies",fetch = FetchType.LAZY)
-	//@JsonBackReference
+	@JsonBackReference
 	private List<EmpyoeeTest> employeetest;
 	
 	public List<EmpyoeeTest> getEmployeetest() {
