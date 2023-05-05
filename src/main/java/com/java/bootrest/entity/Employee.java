@@ -18,7 +18,6 @@ import lombok.ToString;
 @Entity
 @AllArgsConstructor
 @ToString
-@Table(name = "EmployeeTest")
 public class Employee {
 	@Id
 	private int empId;
