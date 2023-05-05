@@ -51,7 +51,7 @@
 	</dependencies>
 
 	<build>
-		<finalName>Springbootrealtime-app</finalName>
+		<finalName>springbootrealtime-app</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
