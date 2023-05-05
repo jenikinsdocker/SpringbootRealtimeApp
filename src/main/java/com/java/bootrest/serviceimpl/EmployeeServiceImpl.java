@@ -372,10 +372,5 @@ public class EmployeeServiceImpl implements EmployeeService {
 		String joining=list.stream().map(S1->S1.getEmpName()).collect(Collectors.joining(","));
 		return joining;
 	}
-
-	
-	
-
-	
 	}
 
